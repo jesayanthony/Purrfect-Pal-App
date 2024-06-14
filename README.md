@@ -8,3 +8,5 @@ It has 3 main features
 3. Read humidity and temperature
 
 This app is integrated with firebase, and it can sync in real time using Real-Time database.
+
+The code of the app is located on the master branch.
