@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TrialPP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here with random colors. -->
+        <item name="colorPrimary">#FF5733</item>
+        <item name="colorPrimaryVariant">#3366FF</item>
+        <item name="colorSecondary">#FFC300</item>
+        <item name="colorSecondaryVariant">#33FFCC</item>
+        <item name="colorAccent">#FF5733</item>
+        <!-- You can add more color attributes as needed -->
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="Theme.TrialPP" parent="Base.Theme.TrialPP" />
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "420019495194",
+    "firebase_url": "https://purrfect-pal-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "purrfect-pal",
+    "storage_bucket": "purrfect-pal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420019495194:android:eb09d6fa36250aaedf0ca3",
+        "android_client_info": {
+          "package_name": "id.iot.trialpp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuFqjLVYRsbo_mUkbZLk-7yHPE0mCLJF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

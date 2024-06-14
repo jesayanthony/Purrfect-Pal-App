@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TrialPP</string>
+    <string-array name="days_of_week">
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday</item>
+        <item>friday</item>
+        <item>saturday</item>
+        <item>sunday</item>
+    </string-array>
+
+    <string name="temperature_value">%.1f°C</string>
+    <string name="humidity_value">%.1f%%</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

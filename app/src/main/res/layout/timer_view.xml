@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rectangle"
+    android:backgroundTint="@color/white"
+    android:layout_margin="10dp"
+    android:layout_marginTop="8dp"
+    android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/textViewTimerNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Timer"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/switchTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewTimeSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:00"
+            android:textSize="40sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/textViewDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textSize="23sp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/buttonDeleteTimer"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/baseline_delete_24" />
+
+</LinearLayout>
