@@ -10,3 +10,5 @@ It has 3 main features
 This app is integrated with firebase, and it can sync in real time using Real-Time database.
 
 The code of the app is located on the master branch.
+
+Demo video: https://www.youtube.com/watch?v=7vIgfcHDbF8
